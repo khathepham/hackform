@@ -83,8 +83,8 @@ jobs:
         echo 'If you are using a "manual" build mode for one or more of the' \
           'languages you are analyzing, replace this with the commands to build' \
           'your code, for example:'
-        echo '  make bootstrap'
-        echo '  make release'
+        echo '  build kotlin project'
+        mvn -B package backend/pom.xml
         exit 1
 
     - name: Perform CodeQL Analysis
