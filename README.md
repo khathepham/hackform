@@ -1,2 +1,3 @@
-# hackform
-Hackathon Management Platform
+# Haxos
+Hacks OS
+Currently in Planning Stage
